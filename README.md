@@ -95,7 +95,7 @@ Run them in order (01 → 02 → 03), as later notebooks reference concepts intr
 
 ## Utility Functions (`utils.py`)
 
-Three helper functions used across the notebooks:
+Four helper functions used across the notebooks:
 
 - `plot_reg(df)` — fits and overlays a simple linear regression line on the current matplotlib figure
 - `nx_to_causallearn_graph(nx_dag)` — converts a NetworkX `DiGraph` into a `causal-learn` `GeneralGraph` for compatibility with structure learning algorithms
